@@ -2,8 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
-/* .background{
-    background: url('/public/media/hero_bg.png');
-    background-size: 90% 100%;
-    right: 0;
-} */
+.training{
+    font-size: 2.5rem;
+}
+
+/* //flex gap-[1rem] pb-[2rem] */
+
+.trainingIcon{
+    display: flex;
+    gap: 1rem;
+    padding-bottom: 2rem;
+}
