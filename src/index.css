@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* .background{
+    background: url('/public/media/hero_bg.png');
+    background-size: 90% 100%;
+    right: 0;
+} */
