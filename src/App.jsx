@@ -46,12 +46,15 @@ function App() {
           </div>
         </div>
       </div>
-      <div className='w-[100%] h-[100vh] bg-[#eff2f6]'>
-        <div>
-          <h1>Learn Web & Mobile Development. Access the global job market.</h1>
-          <p>The world is constantly in need of technical talent supply pool. Tech is needed accross every sector. Your course of study doesn’t matter. All you need is the skill and experience.</p>
+      <div className='w-[100%] h-[130vh] bg-[#eff2f6] grid gap-[7rem]'>
+        <div className='mt-[18rem] pl-[6rem] w-[70rem]'>
+          <h1 className='text-7xl font-[600] pb-[2rem] w-[70%]'>Learn Web & Mobile Development. Access the global job market.</h1>
+          <p className='text-[1.5rem] w-[70%]'>The world is constantly in need of technical talent supply pool. Tech is needed accross every sector. Your course of study doesn’t matter. All you need is the skill and experience.</p>
+          <input type="button" value='Learn more' className='w-[15rem] h-[5rem] mt-[3rem] bg-green-800 rounded-md text-white text-[1.5rem]' />
         </div>
-        <div></div>
+        <div className=''>
+          
+        </div>
       </div>
     </body>
   )

@@ -6,10 +6,12 @@
     font-size: 2.5rem;
 }
 
-/* //flex gap-[1rem] pb-[2rem] */
-
 .trainingIcon{
     display: flex;
     gap: 1rem;
     padding-bottom: 2rem;
+}
+
+.programme{
+    border-right: 0.1rem solid #c2c2c2;
 }
