@@ -52,25 +52,42 @@ function App() {
           <p className='text-[1.5rem]'>The world is constantly in need of technical talent supply pool. Tech is needed accross every sector. Your course of study doesn’t matter. All you need is the skill and experience.</p>
           <input type="button" value='Learn more' className='w-[15rem] h-[5rem] mt-[3rem] bg-green-800 rounded-md text-white text-[1.5rem]' />
         </div>
-        <div className='ml-[20rem] programme mt-[7rem]'>
-          <div className='flex gap-[1rem]'>
-            <img src="/media/mail-white.svg" alt="" />
-            <div className='pt-[1.5rem] '>
+        <div className='ml-[15rem] programme mt-[7rem] pl-[3rem]'>
+          <div className='flex gap-[1rem] mb-[5rem]'>
+            <div className='w-[6rem]'><img src="/media/mail-white.svg" className='' alt="" /></div>
+            <div>
             <h1 className='text-4xl text-green-800 mb-[1rem]'>Program Schedule</h1>
-            <h1>6 months training + 6months paid internship</h1>
-            <p>(there is a custom schedule for students)</p>
+            <h1 className='text-3xl mb-[1rem] font-[600]'>6 months training + 6months paid internship</h1>
+            <p className='text-2xl text-[#c2c2c2] w-[15rem]'>(there is a custom schedule for students)</p>
             </div>
           </div>
-          {/* <div>
-          <div></div>
-            <h1>Our Curriculum</h1>
-            <h1>It covers the fundamentals and advanced concepts of web & mobile development</h1>
+
+          <div className='flex gap-[1rem] mb-[5rem]'>
+          <div><img src="/media/group-white.svg" className='' alt="" /></div>
+            <div>
+            <h1 className='text-4xl text-green-800 mb-[1rem]'>Our Curriculum</h1>
+            <p className='text-2xl w-[15rem]'>It covers the fundamentals and advanced concepts of web & mobile development</p>
+            </div>
           </div>
-          <div>
-          <div></div>
-            <h1>Experiential Learning</h1>
-            <h1>30+ Hands-on Projects & 5+ Real World (Production Grade) Projects</h1>
-          </div> */}
+
+          <div className='flex gap-[1rem] mb-[5rem]'>
+          <div><img src="/media/group-white.svg" className='' alt="" /></div>
+            <div>
+            <h1 className='text-4xl text-green-800 mb-[1rem]'>Experiential Learning</h1>
+            <p className='text-2xl w-[17rem] font-[600]'>30+ Hands-on Projects & 5+ Real World (Production Grade) Projects</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div className='w-[100%] h-[150vh] pt-[10rem] bg-[#f4f8f6]'>
+        <div className='text-center w-[55%] m-[auto]'>
+        <h1 className='text-7xl font-[700] mb-[2rem]'>Our Expertise</h1>
+        <p className='text-3xl'>We have built several solutions from ground up using the following frameworks. Our world class expertise is enviable.</p>
+        </div>
+
+        <div>
+          <img src="" alt="" /><img src="" alt="" /><img src="" alt="" /><img src="" alt="" /><img src="" alt="" /><img src="" alt="" /><img src="" alt="" /><img src="" alt="" /><img src="" alt="" /><img src="" alt="" /><img src="" alt="" /><img src="" alt="" /><img src="" alt="" /><img src="" alt="" /><img src="" alt="" /><img src="" alt="" /><img src="" alt="" /><img src="" alt="" /><img src="" alt="" /><img src="" alt="" /><img src="" alt="" />
         </div>
       </div>
     </body>
