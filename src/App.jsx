@@ -129,33 +129,41 @@ function App() {
         </div>
       </div>
 
-      <div className='w-[100%] h-[150vh] bg-[#f4f8f6] p-[10rem]'>
+      <div className='w-[100%] h-[max-content] bg-[#f4f8f6] p-[10rem] pb-[0rem] flex flex-col gap-[5rem]'>
         <div className='grid grid-cols-4 gap-[3rem]'>
           <div>
             <img className='w-[15rem]' src="/media/cv-logo.svg" alt="" />
-            <p>Building the tech talents for the future of work.</p>
+            <p className='text-3xl w-[15rem] mt-[3rem] font-[350]'>Building the tech talents for the future of work.</p>
           </div>
           <div>
-            <h1>Our Programs</h1>
-            <p>Fullstack Training</p>
-            <p>Kids & Teens Code Classes</p>
+            <h1 className='h1-info'>Our Programs</h1>
+            <p className='text-3xl w-[15rem] mt-[1rem] font-[350]'>Fullstack Training</p>
+            <p className='text-3xl w-[15rem] mt-[1rem] font-[350]'>Kids & Teens Code Classes</p>
           </div>
           <div>
-            <h1>Links</h1>
-            <p>Careers</p>
-            <p>Refund Policy</p>
-            <p>Privacy Policy</p>
+            <h1 className='h1-info'>Links</h1>
+            <p className='text-3xl w-[15rem] mt-[1rem] font-[350]'>Careers</p>
+            <p className='text-3xl w-[15rem] mt-[1rem] font-[350]'>Refund Policy</p>
+            <p className='text-3xl w-[15rem] mt-[1rem] font-[350]'>Privacy Policy</p>
           </div>
           <div>
-            <h1>Contacts</h1>
-            <p>Rasak Onilu Plaza (Middle Floor), Adjacent Niger Motel, Niger Road, Ilorin, Nigeria</p>
-            <h1>08168861541 (Nigeria)</h1>
-            <h1>+1 (707) 681-1531 (International)</h1>
-            <h1>+1 (707) 681-1531 (Whatsapp)</h1>
-            <h1>hello@codevillage.ng</h1>
+            <h1 className='h1-info'>Contacts</h1>
+            <p className='text-3xl w-[15rem] mt-[1rem] mb-[2rem] font-[350]'>Rasak Onilu Plaza (Middle Floor), Adjacent Niger Motel, Niger Road, Ilorin, Nigeria</p>
+            <h1 className='h1-info'>08168861541 (Nigeria)</h1>
+            <h1 className='h1-info'>+1 (707) 681-1531 (International)</h1>
+            <h1 className='h1-info'>+1 (707) 681-1531 (Whatsapp)</h1>
+            <h1 className='h1-info'>hello@codevillage.ng</h1>
           </div>
         </div>
-        <footer className='w-[80%] m-[auto] h-[20vh] flex align-end'></footer>
+        <footer className='w-[98%] m-[auto] h-[20vh] flex justify-between items-center'>
+          <h1 className='text-2xl'>Copyright © 2020-2023 Codevillage Limited</h1>
+          <div className='flex justify-end gap-[2rem] w-[20rem] h-[4rem]'>
+        <img className='w-[2rem]' src="/media/fb-icon.svg" alt="" />
+        <img className='w-[2rem]' src="/media/tw-icon.svg" alt="" />
+        <img className='w-[2rem]' src="/media/github-icon.svg" alt="" />
+        <img className='w-[2rem]' src="/media/location.svg" alt="" />
+      </div>
+        </footer>
       </div>
     </body>
   )

@@ -15,3 +15,14 @@
 .programme{
     border-left: 0.1rem solid #c2c2c2;
 }
+
+footer{
+    border-top: 0.2rem solid #dfe4ea;
+}
+
+.h1-info{
+    font-size: 2rem;
+    font-weight: 700;
+    color: #3e4462;
+    margin-bottom: 2rem;
+}
