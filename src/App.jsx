@@ -1,13 +1,14 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
 import './App.css'
+import Footer from './Components/Footer'
+import Language from './Components/Language'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <body className="App">
-      <div className="cdIntro w-[100%] h-[150vh]">
+      <header className="cdIntro w-[100%] h-[150vh]">
         <img src="/media/hero_bg.png" alt="" className='w-[70vw] h-[150vh] absolute right-0' />
         <img src="/media/cv-logo.svg" alt="" className='pt-[7rem] pl-[8rem] pb-[10rem]'/>
         <h1 className='text-8xl font-[650] w-[40rem] pl-[8rem]'>We build world class Tech talents</h1>
@@ -20,7 +21,7 @@ function App() {
         <img className='w-[4rem]' src="/media/github-icon.svg" alt="" />
         <img className='w-[4rem]' src="/media/location.svg" alt="" />
       </div>
-      </div>
+      </header>
       <div className='w-[100%] h-[160vh] pl-[8rem]'>
         <div className='grid grid-cols-2 pt-[8rem] gap-[5rem]'>
           <h1 className='text-7xl w-[35rem] font-[600]'>State of The Art Ecosystem for Creatives</h1>
@@ -93,30 +94,7 @@ function App() {
         <p className='text-3xl'>We have built several solutions from ground up using the following frameworks. Our world class expertise is enviable.</p>
         </div>
 
-        <div className='flex flex-wrap w-[90%] m-[auto] justify-center gap-[9rem] mt-[8rem]'>
-          <img src="/media/andriod.svg" alt="" />
-          <img src="/media/aws.svg" alt="" />
-          <img src="/media/bootstrap.svg" alt="" />
-          <img src="/media/css.svg" alt="" />
-          <img src="/media/firebase.svg" alt="" />
-          <img src="/media/figma.svg" alt="" />
-          <img src="/media/github.svg" alt="" />
-          <img src="/media/gitlab.svg" alt="" />
-          <img src="/media/heroku.svg" alt="" />
-          <img src="/media/html5.svg" alt="" />
-          <img src="/media/js.svg" alt="" />
-          <img src="/media/mongodb.svg" alt="" />
-          <img src="/media/mysql.svg" alt="" />
-          <img src="/media/node.svg" alt="" />
-          <img src="/media/postgres.svg" alt="" />
-          <img src="/media/python.svg" alt="" />
-          <img src="/media/react.svg" alt="" />
-          <img src="/media/redux.svg" alt="" />
-          <img src="/media/ruby.svg" alt="" />
-          <img src="/media/tailwind.svg" alt="" />
-          <img src="/media/vue.svg" alt="" />
-          <img src="/media/vite.svg" alt="" />
-        </div>
+        <Language/>
       </div>
 
       <div className='w-[100%] h-[65vh] text-center pt-[8rem]'>
@@ -155,15 +133,7 @@ function App() {
             <h1 className='h1-info'>hello@codevillage.ng</h1>
           </div>
         </div>
-        <footer className='w-[98%] m-[auto] h-[20vh] flex justify-between items-center'>
-          <h1 className='text-2xl'>Copyright © 2020-2023 Codevillage Limited</h1>
-          <div className='flex justify-end gap-[2rem] w-[20rem] h-[4rem]'>
-        <img className='w-[2rem]' src="/media/fb-icon.svg" alt="" />
-        <img className='w-[2rem]' src="/media/tw-icon.svg" alt="" />
-        <img className='w-[2rem]' src="/media/github-icon.svg" alt="" />
-        <img className='w-[2rem]' src="/media/location.svg" alt="" />
-      </div>
-        </footer>
+        <Footer/>
       </div>
     </body>
   )
