@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import './App.css'
+import Features from './Components/Features'
 import Footer from './Components/Footer'
 import Language from './Components/Language'
 
@@ -29,31 +30,12 @@ function App() {
         </div>
         <img src="/media/cv-office.jpg" className='pt-[6rem]' alt="" />
         <div className='grid grid-cols-3 pt-[7rem] gap-[2rem]'>
-          <div>
-            <div className='trainingIcon'>
-            <img src="/media/bookmark-circle.svg" alt="" />
-            <h1 className='training w-[17rem]'>Web & Mobile Development</h1>
-            </div>
-            <p className='pl-[4.8rem] text-[1.5rem] w-[25rem]'>We design and develop tech solutions for SMEs and Government Agency.</p>
-          </div>
-          <div>
-          <div className='trainingIcon'>
-            <img src="/media/tent-circle.svg" alt="" />
-            <h1 className='training w-[17rem]'>Bootcamps & Trainings</h1>
-            </div>
-            <p className='pl-[4.8rem] text-[1.5rem] w-[25rem]'>We’re building the next generation of tech talents.</p>
-          </div>
-          <div>
-          <div>
-          <div className='trainingIcon'>
-            <img src="/media/workspace-circle.svg" alt="" />
-            <h1 className='training w-[23rem]'>Workspaces & Tech Hub</h1>
-            </div>
-            <p className='pl-[4.8rem] text-[1.5rem] w-[30rem]'>Work and Connect with other Creatives. All in a fun and cozy environment.</p>
-          </div>
-          </div>
+          <Features img="/media/bookmark-circle.svg" title="Web & Mobile Development" desc="We design and develop tech solutions for SMEs and Government Agency."/>
+          <Features img="/media/tent-circle.svg" title="Bootcamps & Trainings" desc="We’re building the next generation of tech talents."/>
+          <Features img="/media/workspace-circle.svg" title="Workspaces & Tech Hub" desc="Work and Connect with other Creatives. All in a fun and cozy environment."/>
         </div>
       </div>
+      
       <div className='w-[100%] h-[130vh] bg-[#eff2f6] grid grid-cols-2 p-[5rem]'>
         <div className='mt-[18rem]'>
           <h1 className='text-7xl font-[600] pb-[2rem] '>Learn Web & Mobile Development. Access the global job market.</h1>
