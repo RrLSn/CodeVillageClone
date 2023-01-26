@@ -13,7 +13,7 @@ function App() {
         <img src="/media/cv-logo.svg" alt="" className='pt-[7rem] pl-[8rem] pb-[10rem]'/>
         <h1 className='text-8xl font-[650] w-[40rem] pl-[8rem]'>We build world class Tech talents</h1>
         <p className='pl-[8rem] w-[60rem] font-[350] text-[2rem] pt-[4.5rem]'>Join our next cohort to accelerate your dream of being a World Class Software Developer. No coding experience required.</p>
-      <input type="button" name="" id="" value='Enroll now' className='w-[20rem] h-[5rem] ml-[8rem] mt-[3rem] bg-green-800 rounded-md text-white text-[1.5rem]' />
+      <input type="button" name="" id="" value='Enroll now' className='w-[20rem] h-[5rem] ml-[8rem] mt-[3rem] bg-primary rounded-md text-white text-[1.5rem]' />
 
       <div className='flex justify-center gap-[2rem] w-[20rem] mt-[8rem] ml-[12rem]'>
         <img className='w-[4rem]' src="/media/fb-icon.svg" alt="" />
@@ -58,13 +58,13 @@ function App() {
         <div className='mt-[18rem]'>
           <h1 className='text-7xl font-[600] pb-[2rem] '>Learn Web & Mobile Development. Access the global job market.</h1>
           <p className='text-[1.5rem]'>The world is constantly in need of technical talent supply pool. Tech is needed accross every sector. Your course of study doesn’t matter. All you need is the skill and experience.</p>
-          <input type="button" value='Learn more' className='w-[15rem] h-[5rem] mt-[3rem] bg-green-800 rounded-md text-white text-[1.5rem]' />
+          <input type="button" value='Learn more' className='w-[15rem] h-[5rem] mt-[3rem] bg-primary rounded-md text-white text-[1.5rem]' />
         </div>
         <div className='ml-[15rem] programme mt-[7rem] pl-[3rem]'>
           <div className='flex gap-[1rem] mb-[5rem]'>
             <div className='w-[6rem]'><img src="/media/mail-white.svg" className='' alt="" /></div>
             <div>
-            <h1 className='text-4xl text-green-800 mb-[1rem]'>Program Schedule</h1>
+            <h1 className='text-4xl text-primary mb-[1rem]'>Program Schedule</h1>
             <h1 className='text-3xl mb-[1rem] font-[600]'>6 months training + 6months paid internship</h1>
             <p className='text-2xl text-[#c2c2c2] w-[15rem]'>(there is a custom schedule for students)</p>
             </div>
@@ -73,7 +73,7 @@ function App() {
           <div className='flex gap-[1rem] mb-[5rem]'>
           <div><img src="/media/group-white.svg" className='' alt="" /></div>
             <div>
-            <h1 className='text-4xl text-green-800 mb-[1rem]'>Our Curriculum</h1>
+            <h1 className='text-4xl text-primary mb-[1rem]'>Our Curriculum</h1>
             <p className='text-2xl w-[15rem]'>It covers the fundamentals and advanced concepts of web & mobile development</p>
             </div>
           </div>
@@ -81,7 +81,7 @@ function App() {
           <div className='flex gap-[1rem] mb-[5rem]'>
           <div><img src="/media/group-white.svg" className='' alt="" /></div>
             <div>
-            <h1 className='text-4xl text-green-800 mb-[1rem]'>Experiential Learning</h1>
+            <h1 className='text-4xl text-primary mb-[1rem]'>Experiential Learning</h1>
             <p className='text-2xl w-[17rem] font-[600]'>30+ Hands-on Projects & 5+ Real World (Production Grade) Projects</p>
             </div>
           </div>

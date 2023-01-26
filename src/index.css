@@ -2,6 +2,17 @@
 @tailwind components;
 @tailwind utilities;
 
+*::-webkit-scrollbar {
+    width: 6px;
+    background-color: white;
+}
+
+
+*::-webkit-scrollbar-thumb {
+    background-color: #1b734f;
+    border-radius: 30px;
+}
+
 .training{
     font-size: 2.5rem;
 }
