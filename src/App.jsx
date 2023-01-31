@@ -10,12 +10,12 @@ function App() {
 
   return (
     <body className="App">
-      <header className="cdIntro w-[100%] h-[150vh]">
-        <img src="/media/hero_bg.png" alt="" className='w-[70vw] h-[150vh] absolute right-0' />
-        <img src="/media/cv-logo.svg" alt="" className='pt-[7rem] pl-[8rem] pb-[10rem]'/>
+      <header className="cdIntro w-[99vw] h-[150vh]">
+        <img src="/media/hero_bg.png" alt="" className='w-[74vw] h-[150vh] absolute right-0' />
+        <div className='pt-[5rem] pl-[8rem] pb-[8rem] w-[30rem]'><img src="/media/cv-logo.svg" alt="" className=''/></div>
         <h1 className='text-8xl font-[650] w-[40rem] pl-[8rem]'>We build world class Tech talents</h1>
-        <p className='pl-[8rem] w-[60rem] font-[350] text-[2rem] pt-[4.5rem]'>Join our next cohort to accelerate your dream of being a World Class Software Developer. No coding experience required.</p>
-      <input type="button" name="" id="" value='Enroll now' className='w-[20rem] h-[5rem] ml-[8rem] mt-[3rem] bg-primary rounded-md text-white text-[1.5rem]' />
+        <p className='pl-[8rem] w-[60rem] font-[350] text-[2rem] pt-[1.5rem]'>Join our next cohort to accelerate your dream of being a World Class Software Developer. No coding experience required.</p>
+      <input type="button" name="" id="" value='Enroll now' className='w-[15rem] h-[5rem] ml-[8rem] mt-[3rem] bg-primary rounded-md text-white text-[1.5rem]' />
 
       <div className='flex justify-center gap-[2rem] w-[20rem] mt-[8rem] ml-[12rem]'>
         <img className='w-[4rem]' src="/media/fb-icon.svg" alt="" />
@@ -24,7 +24,7 @@ function App() {
         <img className='w-[4rem]' src="/media/location.svg" alt="" />
       </div>
       </header>
-      <div className='w-[100%] h-[160vh] pl-[8rem] pr-[8rem]'>
+      <div className='w-[99vw] h-[180vh] pl-[8rem] pr-[8rem]'>
         <div className='grid grid-cols-2 pt-[8rem] gap-[5rem]'>
           <h1 className='text-7xl w-[35rem] font-[600]'>State of The Art Ecosystem for Creatives</h1>
           <p className='text-[1.5rem] pt-[2rem] w-[36rem]'>Be a part of an all-inclusive technology hub where you learn, collaborate with tech creatives and join a team of support systems offering you the top tools and frameworks to build solutions and earn big.</p>
@@ -37,7 +37,7 @@ function App() {
         </div>
       </div>
       
-      <div className='w-[100%] h-[130vh] bg-[#eff2f6] grid grid-cols-2 p-[5rem]'>
+      <div className='w-[99vw] h-[150vh] bg-[#eff2f6] grid grid-cols-2 p-[5rem]'>
         <div className='mt-[18rem]'>
           <h1 className='text-7xl font-[600] pb-[2rem] '>Learn Web & Mobile Development. Access the global job market.</h1>
           <p className='text-[1.5rem]'>The world is constantly in need of technical talent supply pool. Tech is needed accross every sector. Your course of study doesn’t matter. All you need is the skill and experience.</p>
@@ -60,7 +60,7 @@ function App() {
         </div>
       </div>
 
-      <div className='w-[100%] h-[200vh] pt-[10rem] bg-[#f4f8f6]'>
+      <div className='w-[99vw] h-[210vh] pt-[10rem] bg-[#f4f8f6]'>
         <div className='text-center w-[55%] m-[auto]'>
         <h1 className='text-7xl font-[700] mb-[2rem]'>Our Expertise</h1>
         <p className='text-3xl'>We have built several solutions from ground up using the following frameworks. Our world class expertise is enviable.</p>
@@ -69,7 +69,7 @@ function App() {
         <Language/>
       </div>
 
-      <div className='w-[100%] h-[65vh] text-center pt-[8rem]'>
+      <div className='w-[99vw] h-[70vh] text-center pt-[8rem]'>
         <h1 className='text-7xl w-[40rem] m-[auto] font-[600] mb-[2rem]'>Codevillage Kids & Teens Code Classes</h1>
         <p className='text-2xl'>Will your kids be able to build a tech solution? Yes, It’s possible.</p>
         <p className='text-2xl w-[63rem] m-[auto]'>“We catch them young” by introducing these fresh minds into how computer works and how to make it do what they want.</p>
@@ -107,7 +107,6 @@ function App() {
         </div>
         <Footer/>
       </div>
-      {/* <div></div> */}
     </body>
   )
 }
