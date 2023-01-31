@@ -10,7 +10,7 @@
 
 # Contact
 If you want to contact me, you can reach me at
-afolabisoditemitope@yahoo.com or
+afolabisodiqtemitope@yahoo.com or
 https://github.com/RrLSn
 
 # Additional Info
