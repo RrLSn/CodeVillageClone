@@ -9,9 +9,9 @@ function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <body className="App">
-      <header className="cdIntro w-[99vw] h-[140vh]">
-        <img src="/media/hero_bg.png" alt="" className='w-[73vw] h-[140vh] absolute right-0' />
+    <body className="App w-full">
+      <header className="cdIntro lg:w-[99vw] h-[140vh] w-full">
+        <img src="/media/hero_bg.png" alt="" className='hidden lg:block w-[73vw] h-[140vh] absolute right-0' />
         <div className='pt-[5rem] pl-[8rem] pb-[8rem] w-[30rem]'><img src="/media/cv-logo.svg" alt="" className=''/></div>
         <h1 className='text-8xl font-[650] w-[40rem] pl-[8rem]'>We build world class Tech talents</h1>
         <p className='pl-[8rem] w-[60rem] font-[350] text-[2rem] pt-[1.5rem]'>Join our next cohort to accelerate your dream of being a World Class Software Developer. No coding experience required.</p>
@@ -24,7 +24,7 @@ function App() {
         <img className='w-[4rem]' src="/media/location.svg" alt="" />
       </div>
       </header>
-      <div className='w-[99vw] h-[160vh] pl-[8rem] pr-[8rem]'>
+      <div className=' w-full lg:w-[99vw] h-[160vh] pl-[8rem] pr-[8rem]'>
         <div className='grid grid-cols-2 pt-[8rem] gap-[5rem]'>
           <h1 className='text-7xl w-[35rem] font-[600]'>State of The Art Ecosystem for Creatives</h1>
           <p className='text-[1.5rem] pt-[2rem] w-[36rem]'>Be a part of an all-inclusive technology hub where you learn, collaborate with tech creatives and join a team of support systems offering you the top tools and frameworks to build solutions and earn big.</p>
@@ -37,7 +37,7 @@ function App() {
         </div>
       </div>
       
-      <div className='w-[99vw] h-[130vh] bg-[#eff2f6] grid grid-cols-2 p-[5rem]'>
+      <div className='block w-[99vw] h-[130vh] bg-[#eff2f6] lg:grid grid-cols-2 p-[5rem]'>
         <div className='mt-[18rem]'>
           <h1 className='text-7xl font-[600] pb-[2rem] '>Learn Web & Mobile Development. Access the global job market.</h1>
           <p className='text-[1.5rem]'>The world is constantly in need of technical talent supply pool. Tech is needed accross every sector. Your course of study doesn’t matter. All you need is the skill and experience.</p>
