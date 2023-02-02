@@ -1,3 +1,7 @@
+*{
+    @apply p-0 m-0 box-border
+}
+
 *::-webkit-scrollbar {
     width: 6px;
     background-color: white;
@@ -16,7 +20,7 @@
 .trainingIcon{
     display: flex;
     gap: 1rem;
-    padding-bottom: 2rem;
+    padding-bottom: 0.5rem;
 }
 
 .programme{
@@ -28,7 +32,7 @@ footer{
 }
 
 .h1-info{
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: 700;
     color: #3e4462;
     margin-bottom: 2rem;

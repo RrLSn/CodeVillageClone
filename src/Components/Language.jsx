@@ -2,7 +2,7 @@ import React from 'react'
 
 const Language = () => {
   return (
-    <div className='flex flex-wrap w-[90vw] m-[auto] justify-center gap-[9rem] mt-[8rem]'>
+    <div className='flex flex-wrap w-[87vw] m-[auto] justify-center gap-[7rem] mt-[5rem]'>
           <img src="/media/andriod.svg" alt="" />
           <img src="/media/aws.svg" alt="" />
           <img src="/media/bootstrap.svg" alt="" />
