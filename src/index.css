@@ -5,7 +5,7 @@
   }
   @media (max-width: 640px) {
     :root {
-      font-size: 12px;
+      font-size: 10px;
     }
   }
 @tailwind utilities;
