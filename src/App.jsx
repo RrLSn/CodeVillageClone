@@ -38,7 +38,7 @@ function App() {
         </div>
       </div>
       
-      <div className='w-[99vw] lg:h-[130vh] h-[400vh] lg:mt[0rem] mt-[5rem] bg-[#eff2f6] grid lg:grid-cols-2 grid-rows-2 lg:p-[5rem] p-[3rem]'>
+      <div className='w-[99vw] lg:h-[130vh] h-[460vh] lg:mt[0rem] mt-[5rem] bg-[#eff2f6] grid lg:grid-cols-2 grid-rows-2 lg:p-[5rem] p-[3rem]'>
         <div className='lg:my-[7rem] mb-[15rem] h-[70vh]'>
           <h1 className='text-5xl font-[600] mb-10 mt-[5rem] text-[#18214d]'>Learn Web & Mobile Development. Access the global job market.</h1>
           <p className='lg:text-[1.1rem] text-[1.8rem]'>The world is constantly in need of technical talent supply pool. Tech is needed accross every sector. Your course of study doesn’t matter. All you need is the skill and experience.</p>
@@ -61,18 +61,18 @@ function App() {
         </div>
       </div>
 
-      <div className='w-[99vw] h-[190vh] pt-[6rem] bg-[#f4f8f6]'>
-        <div className='text-center w-[57%] m-[auto]'>
+      <div className='w-[99vw] lg:h-[190vh] h-[287rem] pt-[6rem] bg-[#f4f8f6]'>
+        <div className='text-center lg:w-[57%] w-[70%] m-[auto]'>
         <h1 className='text-5xl font-[700] mb-[2rem]'>Our Expertise</h1>
-        <p className='text-2xl'>We have built several solutions from ground up using the following frameworks. Our world class expertise is enviable.</p>
+        <p className='lg:text-2xl text-3xl'>We have built several solutions from ground up using the following frameworks. Our world class expertise is enviable.</p>
         </div>
 
         <Language/>
       </div>
 
-      <div className='w-[99vw] h-[70vh] text-center pt-[5rem]'>
-        <h1 className='text-5xl w-[30rem] m-[auto] font-[600] mb-[2rem]'>Codevillage Kids & Teens Code Classes</h1>
-        <p className='text-1xl'>Will your kids be able to build a tech solution? Yes, It’s possible.</p>
+      <div className='w-[99vw] lg:h-[70vh] h-[110vh] text-center pt-[5rem] lg:px-[] px-[3rem]'>
+        <h1 className='lg:text-5xl text-6xl lg:w-[30rem] w-[25rem] m-[auto] font-[600] mb-[2rem] text-[#18214d]'>Codevillage Kids & Teens Code Classes</h1>
+        <p className='lg:text-1xl text-2xl'>Will your kids be able to build a tech solution? Yes, It’s possible.</p>
         <p className='text-1xl w-[42rem] m-[auto]'>“We catch them young” by introducing these fresh minds into how computer works and how to make it do what they want.</p>
         <div className='w-[25rem] m-[auto] flex mt-[2rem] text-1xl gap-[1.5rem] justify-center font-[600]'>
           <h1>Secure a spot for your kid now</h1>
