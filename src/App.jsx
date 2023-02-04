@@ -9,36 +9,36 @@ function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <body className="App w-full">
-      <header className="cdIntro lg:w-[99vw] h-[160vh] w-full">
-        <img src="/media/hero_bg.png" alt="" className='hidden lg:block w-[68vw] h-[160vh] absolute right-0' />
-        <div className='lg:pt-[4rem] lg:pl-[8rem] px-[4rem] lg:pb-[8rem] lg:w-[30rem] lg:px-[8rem] pt-[10rem] pb-[17rem]'><img src="/media/cv-logo.svg" alt="" className='lg:w-[8rem] w-[20rem]'/></div>
-        <h1 className='text-8xl font-[550] w-[38rem] lg:pl-[8rem] px-[4rem]'>We build world class Tech talents</h1>
-        <p className='lg:pl-[8rem] px-[4rem] w-[45rem] font-[350] text-[1.5rem] pt-[1.5rem]'>Join our next cohort to accelerate your dream of being a World Class Software Developer. No coding experience required.</p>
-      <input type="button" name="" id="" value='Enroll now' className='w-[13rem] h-[4rem] lg:ml-[8rem] mx-[4rem] mt-[3rem] bg-primary rounded-md text-white text-[1.5rem] cursor-pointer' />
+    <body className="App w-[100%]">
+      <header className="cdIntro lg:w-[99vw] lg:h-[160vh] h-[500vh] w-full">
+        <img src="/media/hero_bg.png" alt="" className='hidden lg:block w-[67vw] h-[160vh] absolute right-0' />
+        <div className='lg:pt-[4rem] lg:pl-[8rem] mx-[6rem] lg:pb-[8rem] lg:w-[30rem] lg:px-[8rem] pt-[10rem] pb-[17rem]'><img src="/media/cv-logo.svg" alt="" className='lg:w-[8rem] w-[20rem]'/></div>
+        <h1 className='text-8xl font-[550] w-[42rem] lg:pl-[8rem] px-[7rem] text-[#18214d]'>We build world class Tech talents</h1>
+        <p className='lg:pl-[8rem] px-[7rem] w-[49rem] font-[350] lg:text-[1.5rem] text-[3.5rem] pt-[1.5rem]'>Join our next cohort to accelerate your dream of being a World Class Software Developer. No coding experience required.</p>
+      <input type="button" name="" id="" value='Enroll now' className='lg:w-[13rem] w-[25rem] lg:h-[4rem] h-[7rem] lg:ml-[8rem] mx-[7rem] lg:mt-[3rem] mt-[7rem] bg-primary rounded-md text-white lg:text-[1.5rem] text-[2.5rem] cursor-pointer' />
 
-      <div className='flex justify-center gap-[2rem] w-[18rem] mt-[4rem] lg:ml-[8rem] mx-[4rem]'>
-        <img className='w-[2.5rem]' src="/media/fb-icon.svg" alt="" />
-        <img className='w-[2.5rem]' src="/media/tw-icon.svg" alt="" />
-        <img className='w-[2.5rem]' src="/media/github-icon.svg" alt="" />
-        <img className='w-[2.5rem]' src="/media/location.svg" alt="" />
+      <div className='flex justify-center gap-[2rem] lg:w-[18rem] w-[30rem] lg:mt-[4rem] mt-[10rem] lg:ml-[8rem] mx-[7rem]'>
+        <img className='lg:w-[2.5rem] w-[5rem]' src="/media/fb-icon.svg" alt="" />
+        <img className='lg:w-[2.5rem] w-[5rem]' src="/media/tw-icon.svg" alt="" />
+        <img className='lg:w-[2.5rem] w-[5rem]' src="/media/github-icon.svg" alt="" />
+        <img className='lg:w-[2.5rem] w-[5rem]' src="/media/location.svg" alt="" />
       </div>
       </header>
-      <div className=' w-full lg:w-[99vw] h-[170vh] lg:pl-[8rem] px-[4rem] pr-[8rem]'>
-        <div className='lg:grid grid-cols-2 pt-[8rem] gap-[5rem] block'>
-          <h1 className='text-6xl w-[33rem] font-[500]'>State of The Art Ecosystem for Creatives</h1>
-          <p className='pt-[2rem] w-[26rem]'>Be a part of an all-inclusive technology hub where you learn, collaborate with tech creatives and join a team of support systems offering you the top tools and frameworks to build solutions and earn big.</p>
+      <div className=' w-full lg:w-[99vw] lg:h-[170vh] h-[400vh] lg:pl-[8rem] pl-[6rem] lg:mb-[] mb-[5rem]'>
+        <div className='lg:grid grid-cols-2 pt-[8rem] gap-[5rem]'>
+          <h1 className='lg:text-6xl text-7xl lg:w-[32rem] w-[40rem] font-[500]'>State of The Art Ecosystem for Creatives</h1>
+          <p className='lg:pt-[2rem] pt-[5rem] lg:w-[29rem] w-[32rem] lg:text-[1.2rem] text-[2.5rem]'>Be a part of an all-inclusive technology hub where you learn, collaborate with tech creatives and join a team of support systems offering you the top tools and frameworks to build solutions and earn big.</p>
         </div>
-        <div className='pt-[6rem] lg:w-[80vw] w-[85vh]'><img src="/media/cv-office.jpg" alt="" /></div>
+        <div className='pt-[6rem] lg:w-[80vw] w-[40rem]'><img src="/media/cv-office.jpg" alt="" /></div>
 
-        <div className='lg:grid grid-cols-3 pt-[7rem] gap-[2rem] block'>
+        <div className='grid lg:grid-cols-3 grid-rows-3 pt-[7rem] gap-[2rem] pr-[8rem]'>
           <Features img="/media/bookmark-circle.svg" title="Web & Mobile Development" desc="We design and develop tech solutions for SMEs and Government Agency."/>
           <Features img="/media/tent-circle.svg" title="Bootcamps & Trainings" desc="We’re building the next generation of tech talents."/>
           <Features img="/media/workspace-circle.svg" title="Workspaces & Tech Hub" desc="Work and Connect with other Creatives. All in a fun and cozy environment."/>
         </div>
       </div>
       
-      <div className='block w-[99vw] h-[130vh] bg-[#eff2f6] lg:grid grid-cols-2 p-[5rem]'>
+      <div className='lg:w-[99vw] w-99rem h-[130vh] lg:mt[0rem] mt-[5rem] bg-[#eff2f6] lg:grid grid-cols-2 p-[5rem]'>
         <div className='mt-[7rem] h-[70vh]'>
           <h1 className='text-5xl font-[600] mb-10 mt-[5rem]'>Learn Web & Mobile Development. Access the global job market.</h1>
           <p className='text-[1.1rem]'>The world is constantly in need of technical talent supply pool. Tech is needed accross every sector. Your course of study doesn’t matter. All you need is the skill and experience.</p>
@@ -62,7 +62,7 @@ function App() {
       </div>
 
       <div className='w-[99vw] h-[190vh] pt-[6rem] bg-[#f4f8f6]'>
-        <div className='text-center w-[55%] m-[auto]'>
+        <div className='text-center w-[57%] m-[auto]'>
         <h1 className='text-5xl font-[700] mb-[2rem]'>Our Expertise</h1>
         <p className='text-2xl'>We have built several solutions from ground up using the following frameworks. Our world class expertise is enviable.</p>
         </div>
