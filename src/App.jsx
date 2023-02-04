@@ -70,33 +70,36 @@ function App() {
         <Language/>
       </div>
 
-      <div className='w-[99vw] lg:h-[70vh] h-[110vh] text-center pt-[5rem] lg:px-[] px-[3rem]'>
-        <h1 className='lg:text-5xl text-6xl lg:w-[30rem] w-[25rem] m-[auto] font-[600] mb-[2rem] text-[#18214d]'>Codevillage Kids & Teens Code Classes</h1>
+      <div className='w-[99vw] lg:h-[70vh] h-[150vh] text-center pt-[5rem] lg:px-[] px-[3rem]'>
+        <h1 className='lg:text-5xl text-6xl lg:w-[30rem] w-[23rem] m-[auto] font-[600] mb-[2rem] text-[#18214d]'>Codevillage Kids & Teens Code Classes</h1>
         <p className='lg:text-1xl text-2xl'>Will your kids be able to build a tech solution? Yes, It’s possible.</p>
-        <p className='text-1xl w-[42rem] m-[auto]'>“We catch them young” by introducing these fresh minds into how computer works and how to make it do what they want.</p>
-        <div className='w-[25rem] m-[auto] flex mt-[2rem] text-1xl gap-[1.5rem] justify-center font-[600]'>
+        <p className='lg:text-1xl text-2xl lg:w-[42rem] w-[21rem] m-[auto]'>“We catch them young” by introducing these fresh minds into how computer works and how to make it do what they want.</p>
+        <div className='w-[25rem] m-[auto] flex mt-[2rem] lg:text-1xl text-2xl gap-[1.5rem] justify-center font-[600]'>
           <h1>Secure a spot for your kid now</h1>
           <img src="/media/arrow-right.svg" alt="" />
         </div>
       </div>
 
-      <div className='w-[99vw] h-[max-content] bg-[#f4f8f6] p-[8rem] pb-[0rem] pt-[7rem] flex flex-col gap-[3rem]'>
-        <div className='grid grid-cols-4 gap-[3rem]'>
+      <div className='w-[99vw] h-[max-content] bg-[#f4f8f6] pl-[8rem] pt-[7rem] flex flex-col gap-[3rem]'>
+        <div className='grid lg:grid-cols-4 grid-rows-4 gap-[3rem]'>
           <div>
             <img className='w-[12rem]' src="/media/cv-logo.svg" alt="" />
             <p className='text-[1.2rem] w-[10rem] mt-[1.5rem] font-[350]'>Building the tech talents for the future of work.</p>
           </div>
+
           <div>
             <h1 className='h1-info'>Our Programs</h1>
             <p className='text-[1.2rem] w-[12rem] mt-[1rem] font-[350]'>Fullstack Training</p>
             <p className='text-[1.2rem] w-[10rem] mt-[0.5rem] font-[350]'>Kids & Teens Code Classes</p>
           </div>
+
           <div>
             <h1 className='h1-info'>Links</h1>
             <p className='text-[1.2rem] w-[10rem] mt-[0.5rem] font-[350]'>Careers</p>
             <p className='text-[1.2rem] w-[10rem] mt-[0.5rem] font-[350]'>Refund Policy</p>
             <p className='text-[1.2rem] w-[10rem] mt-[0.5rem] font-[350]'>Privacy Policy</p>
           </div>
+          
           <div>
             <h1 className='h1-info'>Contacts</h1>
             <p className='text-[1.2rem] w-[12rem] mt-[1rem] mb-[1rem] font-[350]'>Rasak Onilu Plaza (Middle Floor), Adjacent Niger Motel, Niger Road, Ilorin, Nigeria</p>
